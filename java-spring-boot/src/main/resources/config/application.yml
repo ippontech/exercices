@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    default: h2, mock, local
+  liquibase:
+    enabled: false
+
+server:
+  port: 8080
+
+application:
+  exception:
+    details: false
+    package: org.,java.,net.,javax.,com.,io.,de.,com.ippon

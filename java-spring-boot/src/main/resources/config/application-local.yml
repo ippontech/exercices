@@ -1,0 +1,15 @@
+springdoc:
+  swagger-ui:
+    operationsSorter: alpha
+    tagsSorter: alpha
+    tryItOutEnabled: true
+
+application:
+  cors:
+    allow-credentials: true
+    allowed-headers: '*'
+    allowed-methods: '*'
+    allowed-origin-patterns: https://*.githubpreview.dev
+    allowed-origins: http://localhost:8100,http://localhost:9000
+    exposed-headers: Authorization,Link,X-Total-Count,X-dummy-alert,X-dummy-error,X-dummy-params
+    max-age: 1800
